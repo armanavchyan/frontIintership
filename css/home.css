@@ -1,0 +1,440 @@
+@font-face {
+    font-family: Montserrat; 
+    src: url(../fonts/Montserrat-Regular.ttf); 
+     
+    src: url(../fonts/Montserrat-Bold.ttf); 
+     
+    src: url(../fonts/Montserrat-Medium.ttf);
+   }
+   @font-face {
+        font-family: Segoe-reg; 
+        src: url(../fonts/Segoe UI.ttf);
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    margin-top: -1px;
+    width: 1920px;
+    height: 60px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+}
+footer{
+    margin-top: -3px;
+    position: relative;
+    width: 1920px;
+    height: 142px;
+    background: #262F4D 0% 0% no-repeat padding-box;
+}
+
+.logo__img {
+    margin-top: 16px;
+    margin-left: 243px;
+    width: 124px;
+    height: 30px;
+}
+
+.menu {
+    display: inline;
+    list-style-type: none;
+    margin-left: 580px;
+    margin-top: 20px;
+}
+
+.menu__element {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.menu__element-link {
+    text-align: left;
+    font: normal normal normal 15px/19px Montserrat;
+    
+    letter-spacing: 0px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu__element-link-leng {
+    margin-left: 47px;
+    font: normal normal bold 15px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.team-work {
+    display: flex;
+    width: 1920px;
+    height: 644px;
+    background: #F3F3F3 0% 0% no-repeat padding-box;
+}
+
+.about-team {
+    display: inline-block;
+    width: 45%;
+}
+
+.about-team h1 {
+    margin-top: 135px;
+    margin-left: 243px;
+    text-align: left;
+    font: normal normal bold 41px/50px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.about-team p {
+    margin-top: 18px;
+    margin-left: 243px;
+    width: 465px;
+    height: 145px;
+    text-align: left;
+    font: normal normal normal 15px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #070707;
+    overflow: hidden;
+}
+
+ .team-video {
+    width: 930px;
+    height: 430px;
+    margin-top: 135px;
+    margin-right: 244px;
+    background: transparent url("../img/Rectangle 72.svg") 0% 0% no-repeat padding-box
+}
+.rectangl {
+    width: 930px;
+    height: 430px;
+    
+}
+
+.teacher {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.teacher__process {
+    display: flex;
+}
+.teacher__process-image {
+    margin-top: 85px;
+    width: 667px;
+    height: 350px;
+    background:  url("../img/teacher.png") 0% 0% no-repeat padding-box;
+    margin-left: 243px;
+}
+
+.teacher__process-about h2 {
+    margin-top: 74px;
+    margin-left: 59px;
+    text-align: left;
+    font: normal normal bold 41px/50px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+   
+}
+.teacher__process-about p {
+    width: 707px;
+    height: 80px;
+    margin-top: 12px;
+    margin-left: 59px;
+    text-align: left;
+    font: normal normal normal 15px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #070707;
+    overflow: hidden;
+}
+.teacher__process-about ul{
+    list-style-type: none ;
+    margin-left: 59px;
+    margin-top: 24px;
+
+}
+.teacher__process-about li::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #4B4B4B 0% 0% no-repeat padding-box;
+    margin-right: 19px;
+    }
+
+.teacher__process-list {
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+    text-align: left;
+    font: normal normal normal 17px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+   
+}
+
+
+.teacher__process-lern-more { 
+    margin-left: 59px;
+    margin-top: 20px;
+    width: 210px;
+    height: 50px;
+    border: 3px solid #707070;
+    text-align: center;
+    font: normal normal normal 20px/44px Montserrat;
+    letter-spacing: 0px;
+    color: #4B4B4B;
+    
+    
+}
+
+.secure__payment{
+    display: flex;
+}
+.secure__payment-about h2 {
+    margin-top: 119px;
+    margin-left: 243px;
+    text-align: left;
+    font: normal normal bold 41px/50px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    
+}
+.secure__payment-about p {
+    margin-left: 243px;
+    margin-top: 12px;
+    width: 679px;
+    height: 203px;
+    text-align: left;
+    font: normal normal normal 15px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #070707;
+    
+}
+.secure__payment-lern-more {
+    margin-left: 243px;
+    margin-top: 53px;
+    width: 210px;
+    height: 50px;
+    border: 3px solid #707070;
+    opacity: 1;
+    text-align: center;
+    font: normal normal normal 20px/22px Montserrat;
+    letter-spacing: 0px;
+    color: #4B4B4B;
+    
+}
+.secure__payment-image {
+    margin-left: 83px;
+    margin-top: 135px;
+    width: 667px;
+    height: 351px;
+
+}
+.student {
+    margin-top: 182px;  
+    position: relative;
+    width: 1920px;
+    height: 695px;
+    background: transparent url('../img/student-visa.png') 0% 0% no-repeat padding-box;
+    
+    
+}
+.opaci {
+    width: 1920px;
+    height: 695px;
+    background-color: rgba(13,33,68,0.66);
+
+}
+.student h2 {
+    text-align: center;
+    font: normal normal bold 65px/70px Montserrat;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    left: 704px;
+    top: 80px;
+    right: 704px;
+    bottom: 398px;
+
+}
+.getstatrted  {
+
+    border-style: none;
+    width: 210px;
+    height: 50px;
+    background: rgba(111, 218, 68, 1) 0% 0% no-repeat padding-box;
+   
+}
+.getstatrted-works {
+    margin-left: 243px;
+    margin-top: 18px;
+    
+   
+}
+.getstatrted-online{
+    position: absolute;
+    left: 855px;
+    top: 323px;
+    right: 855px;
+    bottom: 324px;
+}
+.getstatrted a {
+    display: inline-block;
+    margin-top:13px;
+    margin-left: 47px;
+    text-decoration: none;
+    font: normal normal normal 20px/22px  Montserrat;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 1);
+}
+.student p {
+    text-align: left;
+    font: normal normal normal 17px/20px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 627px;
+    top: 582px;
+    right: 607px;
+    bottom: 88px;
+
+}
+.icons {
+    display: flex;
+    position: absolute;
+    left: 881px;
+    top: 621px;
+    right: 880px;
+    bottom: 57px;
+    
+}
+.icons a {
+    margin-left: 23px;
+    text-decoration: none;
+    color: #fff;
+}
+.icon__fb {
+    width: 9px;
+    height:18px;
+    background: transparent url('../img/facebook.svg') 0% 0% no-repeat padding-box;
+   
+}
+.icon__ins {
+     width: 16px;
+     height:16px;
+     background: transparent url('../img/insta.svg') 0% 0% no-repeat padding-box;
+    
+
+}
+.icon__p {
+    width: 13px;
+    height:18px;
+    background: transparent url('../img/pinterest.svg') 0% 0% no-repeat padding-box;
+   
+
+}   
+.icon__v {
+    width: 17px;
+    height: 14px;
+    background: transparent url('../img/vk.svg') 0% 0% no-repeat padding-box;
+    
+
+}   
+.icon__t {
+    width: 10px;
+    height: 17px;
+    background: transparent url('../img/twiter.svg') 0% 0% no-repeat padding-box;
+   
+}   
+.top__footer {
+    width: 1920px;
+    height: 142px;
+    background: #262F4D 0% 0% no-repeat padding-box;
+   
+}
+.logo__footer{
+    margin-left: 250px;
+    width: 152px;
+    height: 152px;
+    background: transparent url('../img/Expert.am-logo2.png') 0% 0% no-repeat padding-box;
+    
+}
+.footer__ul{
+    margin-right: 34px;
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    left: 1116px;
+    top: 58px;
+    right: 244px;
+    bottom: 70px;
+}
+.footer__ul li {
+    margin-left: 34px;
+    text-align: center;
+    font: normal normal normal 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    
+}
+.bottom__footer {
+    position: relative;
+    width: 1920px;
+    height: 44px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.bottom__footer h6 {
+    margin-left: 257px;
+    margin-top:10px;
+    width: 174px;
+    height: 31px;
+    text-align: left;
+    font: normal normal normal 14px/19px Segoe UI;
+    letter-spacing: 0px;
+    color: #000;
+    
+}
+.footer__icons {
+    display: flex;
+    width: 158px;
+    height: 19px;
+    position: absolute;
+    left: 1517px;
+    top: 14px;
+    right: 244px;
+    bottom: 11px;
+}
+.footer__icons a {
+    margin-left: 23px;
+}
+.icon__fb-footer {
+    
+    background: transparent url('../img/facebook-bleck.svg') 0% 0% no-repeat padding-box;
+    
+}
+.icon__ins-footer {
+     
+     background: transparent url('../img/insta-bleck.svg') 0% 0% no-repeat padding-box;
+     
+
+}
+.icon__p-footer {
+    
+    background: transparent url('../img/pinterest-bleck.svg') 0% 0% no-repeat padding-box;
+    
+
+}   
+.icon__v-footer {
+    
+    background: transparent url('../img/vk-bleck.svg') 0% 0% no-repeat padding-box;
+    
+
+}   
+.icon__t-footer {
+    
+    background: transparent url('../img/twiter-bleck.svg') 0% 0% no-repeat padding-box;
+    
+}   
