@@ -1,0 +1,29 @@
+# avela=cnel bolor filery giti indexi mej
+git add .
+
+#popoxutyuneri vernagir
+git commit -m "inchor toghet"
+
+#ugharkel giti branchi mej, ete brench chka ksteghci
+git push -u origin master
+
+#ugharkel en brenchi mej vori vra vor gtnvum es
+git push 
+
+
+
+
+
+
+
+ I don't see any included font files
+ 	Done
+ - don't use <input> instead of <a> links
+ 	Done
+ - not all images in a good quality
+ 	downloadet from xd
+ 	
+ - It's important to indicate the interaction with links, for example, change color when user hovers a cursor over it.
+
+ - Put the YouTube player instead of the image.
+ 	Done
