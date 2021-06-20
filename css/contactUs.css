@@ -1,0 +1,110 @@
+
+.contactUs {
+	background: #F5F5F5 0% 0% no-repeat padding-box;
+}
+.contactUs__row {
+	max-width: 1920px;
+	margin-top: 50px;
+	margin-bottom: 150px ;
+}
+.contactUs__in {
+	margin: auto;
+	display: flex;
+	max-width: 1160px;
+	min-height: 640px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 0px 3px 6px #00000029;
+}
+.contactUs__in-form {
+	width: 481px;
+}
+
+.contactUs__in-form-img > div {
+	margin: auto;
+	width: 108px;
+ 	height: 57px;
+	background: transparent url('../img/contactUs/Group 22.svg') 0% 0% no-repeat padding-box;
+	opacity: 0.39;
+}
+.contactUs__in-form-header {
+	text-align: center;
+	font: normal normal bold 20px/24px Montserrat;
+	letter-spacing: 0px;
+	color: #000000;
+}
+.contactUs__in-form-inputs > form {
+	margin-left: 40px;
+	margin-right: 40px;
+
+}
+.button-apply {
+	max-width: 100%;
+
+}
+.contactUs__in-form-1 {
+	margin-left: 111px;
+	margin-top: 27px;
+}
+
+.contactUs__in-form-button {
+	width: 168px;
+	height: 40px;
+	text-align: center;
+	font: normal normal bold 13px/19px Montserrat;
+	letter-spacing: 0px;
+	margin: auto;
+	background: #6FDA44 0% 0% no-repeat padding-box;
+}
+.contactUs__search {
+	max-width: 679px;
+	background-color: #0D2144A8; 
+}
+.contactUs__search-logo {
+	max-width: 100%;
+}
+.contactUs__search-logo > div {
+	margin: auto;
+	width: 207px;
+	height: 150px;
+	background: transparent url('../img/contactUs/Expert.am-logo2.png') 0% 0% no-repeat padding-box;
+}
+.contactUs__search-content{
+	margin-left: 141px;
+	margin-right: 136px;
+}
+.contactUs__search-content > p {
+	max-width: 402px;
+	height: 70px;
+	text-align: center;
+	font: normal normal normal 15px/19px Montserrat;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	overflow: hidden;
+} 
+.choose  {
+	margin-top: 9px;
+}
+.contactUs__search-content > p > a {
+	margin-left: 12px;
+	text-decoration: none;
+	text-align: center;
+	font: normal normal normal 15px/19px Montserrat;
+	letter-spacing: 0px;
+	color: #54E11C;
+
+}
+
+.contactUs__search-form {
+	margin-top: 18px;
+}
+.input-group {
+	display: flex;
+	
+}
+.input-group > input , .input-group-append > button {
+	border-radius: 0;
+	height: 40px;
+}
+.contactUs__icons {
+	margin-top: 207px;
+}
